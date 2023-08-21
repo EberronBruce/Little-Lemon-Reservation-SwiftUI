@@ -21,6 +21,7 @@ struct LocationsView: View {
                         }
                     }
                 }// 3
+                .scrollContentBackground(.hidden)
                 .navigationBarTitle("")
                 .navigationBarHidden(true)
             }
